@@ -2,7 +2,7 @@
   {"name":"Guerrilla","cost":20,"column":1,"row":1,"prerequisites":[]},
   {"name":"Elevage","cost":20,"column":1,"row":3,"prerequisites":[]},
   {"name":"Charpenterie","cost":20,"column":1,"row":5,"prerequisites":[]},
-  {"name":"Navigation cotiere","cost":20,"column":1,"row":7,"prerequisites":[]},
+  {"name":"Navigation  cotiere","cost":20,"column":1,"row":7,"prerequisites":[]},
   {"name":"Forge","cost":60,"column":2,"row":1,"prerequisites":["Guerrilla"]},
   {"name":"Armure lourde","cost":60,"column":2,"row":2,"prerequisites":["Guerrilla"]},
   {"name":"Ferronnerie","cost":60,"column":2,"row":3,"prerequisites":["Elevage"]},
