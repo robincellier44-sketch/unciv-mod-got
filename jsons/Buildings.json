@@ -1,25 +1,37 @@
 [
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+  {
+    "name": "Sept",
+    "cost": 100,
+    "maintenance": 1,
+    "culture": 2,
+    "happiness": 1,
+    "requiredTech": "Philosophy",
+    "replaces": "Temple"
+  },
+  {
+    "name": "Great Hall",
+    "cost": 120,
+    "maintenance": 1,
+    "gold": 2,
+    "food": 1,
+    "requiredTech": "Currency",
+    "replaces": "Market"
+  },
+  {
+    "name": "Maester's Tower",
+    "cost": 90,
+    "maintenance": 1,
+    "science": 2,
+    "requiredTech": "Writing",
+    "replaces": "Library"
+  },
+  {
+    "name": "Castle Walls",
+    "cost": 180,
+    "maintenance": 1,
+    "cityStrength": 6,
+    "cityHealth": 50,
+    "requiredTech": "Mathematics",
+    "replaces": "Walls"
+  }
 ]
