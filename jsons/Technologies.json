@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Guerrilla",
+    "cost": 20,
+    "column": 1,
+    "row": 1,
+    "prerequisites": [],
+    "quote": "\"Le premier outil de tout homme est son épée.\""
+  },
+  {
+    "name": "Elevage",
+    "cost": 20,
+    "column": 1,
+    "row": 3,
+    "prerequisites": [],
+    "quote": "\"Un cheval vaut plus que dix hommes au combat.\""
+  },
+  {
+    "name": "Charpenterie",
+    "cost": 20,
+    "column": 1,
+    "row": 5,
+    "prerequisites": [],
+    "quote": "\"Construire un mur ou un bélier, c'est le même art.\""
+  },
+  {
+    "name": "Navigation cotiere",
+    "cost": 20,
+    "column": 1,
+    "row": 7,
+    "prerequisites": [],
+    "quote": "\"La mer appartient aux Fer-nés.\""
+  },
+  {
+    "name": "Forge",
+    "cost": 60,
+    "column": 2,
+    "row": 1,
+    "prerequisites": ["Guerrilla"],
+    "quote": "\"Une bonne armure vaut son pesant d'or.\""
+  },
+  {
+    "name": "Armure lourde",
+    "cost": 60,
+    "column": 2,
+    "row": 2,
+    "prerequisites": ["Guerrilla"],
+    "quote": "\"L'acier protège mieux que la prière.\""
+  },
+  {
+    "name": "Ferronnerie",
+    "cost": 60,
+    "column": 2,
+    "row": 3,
+    "prerequisites": ["Elevage"],
+    "quote": "\"Un cheval bardé de fer est une arme en soi.\""
+  },
+  {
+    "name": "Dressage de guerre",
+    "cost": 60,
+    "column": 2,
+    "row": 4,
+    "prerequisites": ["Elevage"],
+    "quote": "\"Le Dothraki et son cheval ne font qu'un.\""
+  },
+  {
+    "name": "Genie militaire",
+    "cost": 60,
+    "column": 2,
+    "row": 5,
+    "prerequisites": ["Charpenterie"],
+    "quote": "\"Un château bien assiégé tombe toujours.\""
+  },
+  {
+    "name": "Mecanique de siege",
+    "cost": 60,
+    "column": 2,
+    "row": 6,
+    "prerequisites": ["Charpenterie"],
+    "quote": "\"Le trébuchet peut renverser des murailles.\""
+  },
+  {
+    "name": "Construction navale",
+    "cost": 60,
+    "column": 2,
+    "row": 7,
+    "prerequisites": ["Navigation cotiere"],
+    "quote": "\"Un bon navire rapide vaut une armée.\""
+  },
+  {
+    "name": "Flotte de guerre",
+    "cost": 60,
+    "column": 2,
+    "row": 8,
+    "prerequisites": ["Navigation cotiere"],
+    "quote": "\"La mer est notre domaine.\""
+  },
+  {
+    "name": "Acier fin",
+    "cost": 150,
+    "column": 3,
+    "row": 1,
+    "prerequisites": ["Forge"],
+    "quote": "\"L'acier valyrien ne connaît pas la rouille.\""
+  },
+  {
+    "name": "Armure valyrianne",
+    "cost": 150,
+    "column": 3,
+    "row": 2,
+    "prerequisites": ["Armure lourde"],
+    "quote": "\"Porter l'armure du Kingsguard est un honneur.\""
+  },
+  {
+    "name": "Art de la guerre montee",
+    "cost": 150,
+    "column": 3,
+    "row": 3,
+    "prerequisites": ["Ferronnerie"],
+    "quote": "\"La lance et le cheval, une seule âme de guerre.\""
+  },
+  {
+    "name": "Tactique Dothraki",
+    "cost": 150,
+    "column": 3,
+    "row": 4,
+    "prerequisites": ["Dressage de guerre"],
+    "quote": "\"Ils naissent sur un cheval et meurent dessus.\""
+  },
+  {
+    "name": "Alchimie",
+    "cost": 150,
+    "column": 3,
+    "row": 5,
+    "prerequisites": ["Genie militaire"],
+    "quote": "\"Le feu grégeois brûle sur l'eau elle-même.\""
+  },
+  {
+    "name": "Grand trebuchet",
+    "cost": 150,
+    "column": 3,
+    "row": 6,
+    "prerequisites": ["Mecanique de siege"],
+    "quote": "\"Quand les murs tombent, les royaumes s'effondrent.\""
+  },
+  {
+    "name": "Maitrise des mers",
+    "cost": 150,
+    "column": 3,
+    "row": 7,
+    "prerequisites": ["Construction navale"],
+    "quote": "\"Celui qui contrôle la mer contrôle le monde.\""
+  },
+  {
+    "name": "Flotte Fer-nee",
+    "cost": 150,
+    "column": 3,
+    "row": 8,
+    "prerequisites": ["Flotte de guerre"],
+    "quote": "\"Le Silence est le plus grand navire.\""
+  }
+]
