@@ -1,5 +1,14 @@
 [
   {
+    "name": "Settler",
+    "unitType": "Civilian",
+    "movement": 2,
+    "strength": 0,
+    "cost": 80,
+    "uniques": ["Founds a new city"],
+    "promotions": []
+  },
+  {
     "name": "Homme d'armes leger",
     "unitType": "Melee",
     "movement": 2,
