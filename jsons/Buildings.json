@@ -6,6 +6,7 @@
     "culture": 2,
     "happiness": 1,
     "requiredTech": "Philosophy",
+    "uniqueTo": "Tyrell",
     "replaces": "Temple"
   },
   {
@@ -15,6 +16,7 @@
     "gold": 2,
     "food": 1,
     "requiredTech": "Currency",
+    "uniqueTo": "Lannister",
     "replaces": "Market"
   },
   {
@@ -23,6 +25,7 @@
     "maintenance": 1,
     "science": 2,
     "requiredTech": "Writing",
+    "uniqueTo": "Stark",
     "replaces": "Library"
   },
   {
@@ -32,6 +35,7 @@
     "cityStrength": 6,
     "cityHealth": 50,
     "requiredTech": "Mathematics",
+    "uniqueTo": "Baratheon",
     "replaces": "Walls"
   }
 ]
