@@ -6,9 +6,8 @@
     "strength": 32,
     "cost": 180,
     "requiredTech": "Horseback Riding",
-    "uniques": [
-      "No movement cost to pillage"
-    ],
+    "uniqueTo": "Greyjoy",
+    "uniques": ["No movement cost to pillage"],
     "promotions": ["Shock I"],
     "obsoleteTech": "Gunpowder",
     "replaces": "Knight"
@@ -20,11 +19,8 @@
     "strength": 14,
     "cost": 56,
     "requiredTech": "Bronze Working",
-    "uniques": [
-      "No movement cost to enter Forest or Jungle tiles",
-      "No movement cost to pillage"
-    ],
-    "promotions": ["Woodsman"],
+    "uniqueTo": "Stark",
+    "uniques": ["No movement cost to pillage"],
     "obsoleteTech": "Steel"
   }
 ]
